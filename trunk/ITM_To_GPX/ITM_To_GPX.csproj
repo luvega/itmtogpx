@@ -91,6 +91,13 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DanielLibrary.dll" />
+    <Content Include="ICSharpCode.SharpZipLib.dll" />
+    <Content Include="SQLite.dll" />
+    <Content Include="SQLite.NET.dll" />
+    <Content Include="SQLite3.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
